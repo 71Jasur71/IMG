@@ -1,0 +1,30 @@
+.headermenu {
+  background: #ffffff;
+  &__col {
+    height: 70px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.07);
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  &__juft {
+    display: flex;
+    align-items: center;
+  }
+  &__juft img{
+    margin-right: 10px;}
+  &__text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #414141;
+  }
+  &__text:hover{
+    color: #D74444;
+
+  }
+}

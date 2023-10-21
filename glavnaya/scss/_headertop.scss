@@ -1,0 +1,30 @@
+.headertop {
+  &__row {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  &__inpt{
+    color: #414141;
+    display: flex;
+    width: 839px;
+    height: 50px;
+    margin: 0 37px;
+    padding: 15px;    
+    border: 1px solid #E6E6E6;
+  }
+  &__poisk {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    outline: none;
+    border: 0;
+    margin-left: 20px;
+  }
+  &__rasm {
+    margin-right: 30px;
+  }
+}
